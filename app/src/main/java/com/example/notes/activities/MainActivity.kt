@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Binder
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.view.MenuItem
 import android.view.WindowManager
 import android.widget.LinearLayout
@@ -113,7 +114,12 @@ class MainActivity : AppCompatActivity(),NotesAdapter.NotesClickListener,PopupMe
     }
 
     private fun popUpDisplay(cardView: CardView) {
-        val popup = PopupMenu(this,cardView)
+
+        val popup = PopupMenu(this,cardView).apply {
+            inflate(R.menu.pop_up_menu)
+
+        }
+        popup.show()
         popup.setOnMenuItemClickListener(this@MainActivity)
     }
 

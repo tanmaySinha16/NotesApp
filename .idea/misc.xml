@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/Practice/Notes/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2185" />
+        <entry key="..\:/AndroidProjects/Practice/Notes/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2185" />
+        <entry key="..\:/AndroidProjects/Practice/Notes/app/src/main/res/layout/list_item.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidProjects/Practice/Notes/app/src/main/res/menu/pop_up_menu.xml" value="0.23229166666666667" />
         <entry key="..\:/Projects/Practice/Notes/app/src/main/res/layout/activity_add_note.xml" value="0.22864583333333333" />
         <entry key="..\:/Projects/Practice/Notes/app/src/main/res/layout/activity_main.xml" value="0.22864583333333333" />
         <entry key="..\:/Projects/Practice/Notes/app/src/main/res/layout/list_item.xml" value="0.264" />

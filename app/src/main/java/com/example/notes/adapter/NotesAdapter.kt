@@ -45,6 +45,7 @@ class NotesAdapter(private val context: Context,val listener:NotesClickListener)
         holder.notes_layout.setOnClickListener{
             listener.onItemClicked(noteList[holder.adapterPosition])
         }
+
         holder.notes_layout.setOnLongClickListener {
             listener.onLongItemClicked(noteList[holder.adapterPosition],holder.notes_layout)
             true
